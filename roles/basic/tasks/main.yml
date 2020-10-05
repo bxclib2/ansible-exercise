@@ -6,9 +6,5 @@
 - name: "Instal additional softwares"
   apk: name={{ item }} state=present
   with_items:
-  - dnsutils
   - git
   - vim
-  - ntp
-  - at
-  - lvm2 
