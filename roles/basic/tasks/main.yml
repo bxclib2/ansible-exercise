@@ -1,2 +1,2 @@
--name "Install VIM"
- apt: pkg=vim state=present
+- name "Install VIM"
+  apt: pkg=vim state=present
