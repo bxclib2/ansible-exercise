@@ -1,2 +1,4 @@
+# - name: "Install vim"
+#   apt: pkg=vim state=present # The apt command will use apt-get which is not exist in alpine
 - name: "Install vim"
-  apk: pkg=vim state=present
+  apk: name=vim state=present # The apk command will be manager of alpine
