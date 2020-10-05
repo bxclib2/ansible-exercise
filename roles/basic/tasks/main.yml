@@ -1,2 +1,2 @@
 - name: "Install vim"
-  apt: pkg=vim state=present
+  apk: pkg=vim state=present
